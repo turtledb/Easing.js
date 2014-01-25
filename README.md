@@ -10,15 +10,11 @@ https://github.com/uupaa/Easing.js/wiki/Easing
 # Install, Setup modules
 
 ```sh
+$ brew install closure-compiler
+
 $ git clone git@github.com:uupaa/Easing.js.git
 $ cd Easing.js
 $ npm install
-```
-
-# Test
-
-```sh
-$ npm test
 ```
 
 # Minify
@@ -29,5 +25,11 @@ $ npm start
   or
 
 $ node node_modules/uupaa.minify.js --keep --output ./lib/Easing.min.js ./lib/Easing.js
+```
+
+# Test
+
+```sh
+$ npm test
 ```
 
