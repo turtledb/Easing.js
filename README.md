@@ -20,3 +20,14 @@ $ npm install
 ```sh
 $ npm test
 ```
+
+# Minify
+
+```sh
+$ npm start
+
+  or
+
+$ node node_modules/uupaa.minify.js --keep --output ./lib/Easing.min.js ./lib/Easing.js
+```
+
