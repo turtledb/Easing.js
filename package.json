@@ -1,6 +1,6 @@
 {
   "name":           "uupaa.easing.js",
-  "version":        "0.8.3",
+  "version":        "0.8.4",
   "description":    "Easing functions.",
   "url":            "https://github.com/uupaa/Easing.js",
   "keywords":       ["easing", "util", "uupaa"],
@@ -12,7 +12,10 @@
     "start":        "node node_modules/uupaa.minify.js --keep --output ./lib/Easing.min.js ./lib/Easing.js",
     "test":         "NODE_ENV=production NODE_PATH=lib node --harmony test/index.node.js; open test/index.html"
   },
+  "dependencies": {
+  },
   "devDependencies": {
+    "uupaa.mappedarray.js": "",
     "uupaa.help.js":    "",
     "uupaa.test.js":    "",
     "uupaa.task.js":    "",
