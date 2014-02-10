@@ -1,6 +1,6 @@
 {
   "name":           "uupaa.easing.js",
-  "version":        "0.8.4",
+  "version":        "0.8.5",
   "description":    "Easing functions.",
   "url":            "https://github.com/uupaa/Easing.js",
   "keywords":       ["easing", "util", "uupaa"],
@@ -15,7 +15,6 @@
   "dependencies": {
   },
   "devDependencies": {
-    "uupaa.mappedarray.js": "",
     "uupaa.help.js":    "",
     "uupaa.test.js":    "",
     "uupaa.task.js":    "",
