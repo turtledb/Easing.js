@@ -1,35 +1,44 @@
 Easing.js
 =========
 
-Easing.js is Easing functions.
+Easing functions.
 
-# API Document
+# Document
 
 https://github.com/uupaa/Easing.js/wiki/Easing
 
-# Install, Setup modules
+# How to use
 
-```sh
-$ brew install closure-compiler
+see test/test.js
 
-$ git clone git@github.com:uupaa/Easing.js.git
-$ cd Easing.js
-$ npm install
-```
+# for Developers
 
-# Minify
+1. Install development dependency tools
 
-```sh
-$ npm start
+    ```sh
+    $ brew install closure-compiler
+    $ brew install node
+    $ npm install -g plato
+    ```
 
-  or
+2. Clone Repository and Install
 
-$ node node_modules/uupaa.minify.js --keep --output ./lib/Easing.min.js ./lib/Easing.js
-```
+    ```sh
+    $ git clone git@github.com:uupaa/Easing.js.git
+    $ cd Easing.js
+    $ npm install
+    ```
 
-# Test
+3. Build and Minify
 
-```sh
-$ npm test
-```
+    `$ npm run build`
+
+4. Test
+
+    `$ npm run test`
+
+5. Lint
+
+    `$ npm run lint`
+
 
