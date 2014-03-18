@@ -1,6 +1,6 @@
 {
   "name":           "uupaa.easing.js",
-  "version":        "0.8.6",
+  "version":        "0.8.7",
   "description":    "Easing functions.",
   "url":            "https://github.com/uupaa/Easing.js",
   "keywords":       ["easing", "util", "uupaa"],
@@ -9,25 +9,26 @@
     "url":          "https://github.com/uupaa/Easing.js.git"
   },
   "scripts": {
-    "watch":        "node node_modules/uupaa.watch.js --verbose --action build ./lib/Easing.js",
-    "build":        "node node_modules/uupaa.minify.js --keep --option 'formatting pretty_print' --output ./lib/Easing.min.js ./lib/Easing.js",
-    "build-release":"node node_modules/uupaa.minify.js --module all --output ./lib/Easing.min.js",
+    "watch":        "node node_modules/uupaa.watch.js --verbose --action build",
+    "build":        "node node_modules/uupaa.minify.js --verbose --strict --keep --pretty",
+    "build-simple": "node node_modules/uupaa.minify.js --verbose --strict --keep --pretty --nowrap --simple",
+    "build-release":"node node_modules/uupaa.minify.js --verbose --strict --module",
     "test":         "NODE_ENV=production NODE_PATH=lib node --harmony test/index.node.js; open test/index.html",
-    "lint":         "plato --title Easing.js --jshint .jshintrc -d lint/plato lib/Easing.js; open lint/plato/index.html"
+    "lint":         "node node_modules/uupaa.plato.js; open lint/plato/index.html"
   },
-  "build": {
-    "all": { "lib/Easing.js": "" },
-    "node": { },
-    "worker": { },
-    "browser": { }
+  "x-build": {
+    "inputs":       ["lib/easing.js"],
+    "output":       "lib/easing.min.js"
   },
   "dependencies": {
   },
   "devDependencies": {
     "uupaa.valid.js":   "",
     "uupaa.help.js":    "",
-    "uupaa.test.js":    "",
     "uupaa.task.js":    "",
+    "uupaa.test.js":    "",
+    "uupaa.watch.js":   "",
+    "uupaa.plato.js":   "",
     "uupaa.minify.js":  ""
   },
   "lib":            "./lib/",

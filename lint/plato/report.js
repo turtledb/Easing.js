@@ -1,1 +1,63 @@
-__report = {"summary":{"total":{"sloc":84,"maintainability":55.651713692033034},"average":{"sloc":84,"maintainability":"55.65"}},"reports":[{"info":{"file":"lib/Easing.js","fileShort":"lib/Easing.js","fileSafe":"lib_Easing_js","link":"files/lib_Easing_js/index.html"},"jshint":{"messages":1},"complexity":{"aggregate":{"line":6,"complexity":{"sloc":{"physical":84,"logical":38},"cyclomatic":5,"halstead":{"operators":{"distinct":15,"total":74,"identifiers":["__stripped__"]},"operands":{"distinct":72,"total":100,"identifiers":["__stripped__"]},"length":174,"vocabulary":87,"difficulty":10.416666666666666,"volume":1121.0721682776789,"effort":11677.835086225821,"bugs":0.37369072275922627,"time":648.7686159014345},"params":1}},"module":"lib/Easing.js","maintainability":55.651713692033034}}]}
+__report = {
+  "reports": [
+    {
+      "info": {
+        "file": "lib/easing.js",
+        "fileShort": "lib/easing.js",
+        "fileSafe": "lib_easing_js",
+        "link": "files/lib_easing_js/index.html"
+      },
+      "jshint": {
+        "messages": 1
+      },
+      "complexity": {
+        "aggregate": {
+          "line": 6,
+          "complexity": {
+            "sloc": {
+              "physical": 84,
+              "logical": 38
+            },
+            "cyclomatic": 5,
+            "halstead": {
+              "operators": {
+                "distinct": 15,
+                "total": 74,
+                "identifiers": [
+                  "__stripped__"
+                ]
+              },
+              "operands": {
+                "distinct": 72,
+                "total": 100,
+                "identifiers": [
+                  "__stripped__"
+                ]
+              },
+              "length": 174,
+              "vocabulary": 87,
+              "difficulty": 10.416666666666666,
+              "volume": 1121.0721682776789,
+              "effort": 11677.835086225821,
+              "bugs": 0.37369072275922627,
+              "time": 648.7686159014345
+            },
+            "params": 1
+          }
+        },
+        "module": "lib/easing.js",
+        "maintainability": 55.651713692033034
+      }
+    }
+  ],
+  "summary": {
+    "total": {
+      "sloc": 84,
+      "maintainability": 55.651713692033034
+    },
+    "average": {
+      "sloc": 84,
+      "maintainability": "55.65"
+    }
+  }
+}
